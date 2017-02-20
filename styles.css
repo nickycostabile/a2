@@ -1,0 +1,61 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+#container {
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	top: 25px;
+	border: 2px solid #C6C6C6;
+	padding: 20px;
+}
+h1 {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00CC99;
+}
+label {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 10pt;
+	display: block;
+}
+#submitBtn {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 10pt;
+	background-color: #00CC99;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+}
+#submitBtn:hover {
+	background-color: #006C51;
+}
+input.inputNum {
+	width: 100%;
+	display: block;	
+}
+input {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#alert ul {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 10.5pt;
+	line-height: 1.5em;
+	text-align: center;
+	list-style-type: none;
+	color: #D12;
+	padding: 0px;
+}
+#results p {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 10.5pt;
+	text-align: center;
+	color: #00CC99;
+}
